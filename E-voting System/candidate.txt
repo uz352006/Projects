@@ -1,0 +1,11 @@
+10
+Ethan Parker,Reformation Party,C4309,0
+John Doe,Liberetarian Party,C4560,0
+James Carter,Green Future Party,C1113,0
+Marie Simmons,United Coalition,C4865,0
+David Lee,Youth Empowerment Party,C2053,0
+Daniel Wilson,National Harmony Party,C9367,0
+Ava Anderson,Citizens Right Party,C1332,0
+Sophia Williams,Progressive Change Party,C5696,0
+Claire Mitchell,Workers Party,C6100,0
+Johnathan Smith,National Democratic Party,C7965,1
