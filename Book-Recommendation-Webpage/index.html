@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet"
+  >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-Shelf</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Adamina&family=Danfo&family=Eagle+Lake&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Uncial+Antiqua&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="bgimg">
+    <!-- Navigation Bar -->
+    <nav>
+      <span class="icon">Book-Shelf.</span>
+      <span class="menu-toggle">☰</span>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="community.html">COMMUNITY</a></li> <!-- Updated to link Community -->
+      </ul>
+    </nav>
+
+    <!-- Hero Text -->
+    <h1 class="bg-head">
+      DISCOVER YOUR NEW <span class="underline" style="color:white">FAVOURITE</span> BOOK
+    </h1>
+
+    <!-- Get Started Button -->
+    <div class="btn">
+      <button class="buttn">
+        <a href="#filters" class="btn-link">GET STARTED!</a>
+      </button>
+    </div>
+  </div>
+
+  <!-- Filters Section -->
+  <div id="filters">
+    <h1 class="pg2">Discover your next read!</h1>
+    <div class="bk-slct">
+      <input type="text" placeholder="Enter Book Author">
+      <select id="Genre" name="Genre">
+        <option value="" disabled selected>Genre</option>
+        <option value="option1">Fiction</option>
+        <option value="option2">Fantasy</option>
+        <option value="option3">Sci-Fi</option>
+        <option value="option4">Historical Fiction</option>
+        <option value="option5">Non-Fiction</option>
+        <option value="option6">Mystery and Thriller</option>
+      </select>
+      <select id="options" name="options">
+        <option value="option1" disabled selected>Relevance</option>
+        <option value="option2">Self-Discovery and Growth</option>
+        <option value="option3">Overcoming Adversity</option>
+        <option value="option4">Social Justice and Equity</option>
+        <option value="option5">Leadership and Innovation</option>
+        <option value="option6">Love and Relationship</option>
+      </select>
+      <br>
+      <button class="btnsrc">Search</button>
+    </div>
+  </div>
+
+  <!-- Link to script.js -->
+  <script src="script.js"></script>
+</body>
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Book-Shelf</h2>
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2024 Book-Shelf. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</html>
