@@ -1,4 +1,4 @@
-# 📚 Portfolio Projects
+# Projects
 
 Welcome to my project portfolio! This repository showcases my key development projects, demonstrating my experience with **C**, **C++ (Qt)**, and **HTML/CSS/JS**. Each project reflects my growing skills in programming, problem-solving, and user-centric design.
 
