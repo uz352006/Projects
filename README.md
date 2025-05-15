@@ -30,7 +30,7 @@ A visually appealing and responsive website that filters and recommends books ba
 ### 🎯 Features:
 - Genre-based **Filtering**
 - Mobile-friendly **Responsive Layout**
-- Pleasant **Korean Kawaii-inspired UI**
+- Pleasant **Interactive UI**
 - HTML Forms & basic JavaScript interactions
 
 ### 🛠️ Technologies Used:
