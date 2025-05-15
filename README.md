@@ -9,7 +9,7 @@ Welcome to my project portfolio! This repository showcases my key development pr
 A secure, console-based voting system designed to simulate real-world voting procedures with two main user roles: **Admin** and **Voter**.
 
 ### 🔧 Features:
-- **Admin Login** with password authentication (`admin2024`)
+- **Admin Login** with password authentication 
 - **Start/End Voting** control by admin
 - **Voter Registration** with auto-generated Voter ID
 - **Vote Casting** (one vote per voter)
