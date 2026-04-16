@@ -1,6 +1,6 @@
 # 🚀 Project Portfolio
 
-> A collection of projects built across **C**, **C++**, and **Web** — each one tackling real-world problems through thoughtful design and solid engineering.
+> A collection of projects built across **C**, **C++**, and **Web** — each one tackling real-world problems through thoughtful design .
 
 ---
 
