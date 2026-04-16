@@ -1,59 +1,34 @@
 # Projects
 
-Welcome to my project portfolio! This repository showcases my key development projects, demonstrating my experience with **C**, **C++ (Qt)**, and **HTML/CSS/JS**. Each project reflects my growing skills in programming, problem-solving, and user-centric design.
+Welcome to my project portfolio! This repository showcases my key development projects, demonstrating my experience with **C**, **C++ (Qt)**, **C++ (OOP/DSA)**, and **HTML/CSS/JS**. Each project reflects my growing skills in programming, problem-solving, and user-centric design.
+
+---
+
+## 🏦 Smart Banking Wallet System (C++ / OOP / DSA)
+
+A fully featured, console-based banking system built from scratch using custom data structures. The system manages user accounts, transactions, scheduled payments, and security — all without using STL containers.
+
+### 🔧 Features:
+- **Account management** — create accounts, secure login, account lockout after failed attempts, profile updates
+- **Transactions** — deposit, withdraw, fund transfer with PIN verification and full transaction history
+- **Undo system** — 60-second undo window using a custom stack; supports deposit, withdraw, and transfer reversal
+- **Scheduled payments** — priority queue–based scheduler; set payments minutes, hours, days, or months ahead; cancel anytime
+- **Security** — weak password/PIN detection, 3-attempt lockout, timed unlock, security audit log per account
+- **Persistence** — all user data, transaction history, undo stacks, and scheduled payments saved to file automatically
+
+### 🗂️ Data Structures (implemented from scratch, no STL):
+- **Linked list** — transaction history per user
+- **Stack** — undo system with time-limited rollback
+- **Priority queue** — scheduled payment execution ordered by time
+- **Dynamic array** — resizable user storage
+
+### 👨‍💻 Tech Stack:
+- C++ (OOP)
+- Custom DSA (no STL containers)
+- File I/O for persistence
+- Input validation & security logic
 
 ---
 
 ## 🗳️ E-Voting System (C Language)
-
-A secure, console-based voting system designed to simulate real-world voting procedures with two main user roles: **Admin** and **Voter**.
-
-### 🔧 Features:
-- **Admin Login** with password authentication 
-- **Start/End Voting** control by admin
-- **Voter Registration** with auto-generated Voter ID
-- **Vote Casting** (one vote per voter)
-- **Result Calculation** with real-time winner announcement
-- **Modular Functions** for code clarity and reusability
-
-### 👨‍💻 Tech Stack:
-- C Programming
-- Switch-case & functions
-- Input validation & control structures
-
----
-
-## 📖 Book Recommendation Website (HTML/CSS/JavaScript)
-
-A visually appealing and responsive website that filters and recommends books based on genres and user preferences.
-
-### 🎯 Features:
-- Genre-based **Filtering**
-- Mobile-friendly **Responsive Layout**
-- Pleasant **Interactive UI**
-- HTML Forms & basic JavaScript interactions
-
-### 🛠️ Technologies Used:
-- HTML5
-- CSS3 (Flexbox, Grid)
-- JavaScript (DOM manipulation)
-
----
-
-## 📅 Academic Productivity App (C++ / Qt Framework)
-
-A cross-platform desktop application to help students organize their academic lives with calendar-based task planning.
-
-### ✨ Highlights:
-- **Task & Schedule Manager** with deadline tracking
-- **Calendar View** for daily/weekly planning
-- **Progress Tracker** to monitor goal completion
-- Implemented using **Object-Oriented Programming**
-- **Event-driven UI** with Qt Widgets
-
-### ⚙️ Tools & Technologies:
-- C++
-- Qt Framework
-- Signal-Slot mechanism
-- OOP Design Principles
-
+...
