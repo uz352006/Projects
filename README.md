@@ -1,34 +1,92 @@
-# Projects
+# 🚀 Project Portfolio
 
-Welcome to my project portfolio! This repository showcases my key development projects, demonstrating my experience with **C**, **C++ (Qt)**, **C++ (OOP/DSA)**, and **HTML/CSS/JS**. Each project reflects my growing skills in programming, problem-solving, and user-centric design.
-
----
-
-## 🏦 Smart Banking Wallet System (C++ / OOP / DSA)
-
-A fully featured, console-based banking system built from scratch using custom data structures. The system manages user accounts, transactions, scheduled payments, and security — all without using STL containers.
-
-### 🔧 Features:
-- **Account management** — create accounts, secure login, account lockout after failed attempts, profile updates
-- **Transactions** — deposit, withdraw, fund transfer with PIN verification and full transaction history
-- **Undo system** — 60-second undo window using a custom stack; supports deposit, withdraw, and transfer reversal
-- **Scheduled payments** — priority queue–based scheduler; set payments minutes, hours, days, or months ahead; cancel anytime
-- **Security** — weak password/PIN detection, 3-attempt lockout, timed unlock, security audit log per account
-- **Persistence** — all user data, transaction history, undo stacks, and scheduled payments saved to file automatically
-
-### 🗂️ Data Structures (implemented from scratch, no STL):
-- **Linked list** — transaction history per user
-- **Stack** — undo system with time-limited rollback
-- **Priority queue** — scheduled payment execution ordered by time
-- **Dynamic array** — resizable user storage
-
-### 👨‍💻 Tech Stack:
-- C++ (OOP)
-- Custom DSA (no STL containers)
-- File I/O for persistence
-- Input validation & security logic
+> A collection of projects built across **C**, **C++**, and **Web** — each one tackling real-world problems through thoughtful design and solid engineering.
 
 ---
 
-## 🗳️ E-Voting System (C Language)
-...
+## 🏦 Smart Banking Wallet System
+**`C++` · `OOP` · `Custom DSA` · `File I/O`**
+
+> A fully-featured, console-based banking system engineered from scratch — no STL containers. Every data structure is hand-built, from the transaction linked list to the priority queue powering scheduled payments.
+
+### ✨ What it does
+
+| Feature | Description |
+|---|---|
+| 🔐 Secure login | Password + 4-digit PIN auth, account lockout after 3 failed attempts, timed auto-unlock |
+| 💸 Transactions | Deposit, withdraw, and transfer funds with real-time balance updates |
+| ↩️ Undo system | Reverse any transaction within a 60-second window — powered by a custom stack |
+| ⏰ Scheduled payments | Queue future payments by minutes, hours, days, or months; cancel anytime |
+| 🛡️ Security hardening | Weak password/PIN rejection, per-account security audit logs, invalid login tracking |
+| 💾 Persistence | All data — accounts, history, undo stacks, scheduled payments — survives restarts via file I/O |
+
+### 🗂️ Data structures (built from scratch)
+
+```
+TransactionLinkedList   →  full history per account, O(1) append
+TransactionStack        →  undo buffer with timestamp-gated rollback
+PaymentPriorityQueue    →  min-heap by execution time for scheduled transfers
+Dynamic User Array      →  auto-resizing storage for all accounts
+```
+
+### 🛠️ Tech stack
+`C++` · `Object-Oriented Programming` · `Manual memory management` · `File I/O` · `Input validation & security logic`
+
+---
+
+## 🗳️ E-Voting System
+**`C` · `Procedural` · `Console`**
+
+> A secure, console-based voting simulator covering the full election lifecycle — from voter registration to result announcement — across two distinct user roles.
+
+### ✨ What it does
+
+- **Admin role** — password-protected login, start/end voting sessions, view live results
+- **Voter role** — registration with auto-generated voter ID, single-vote enforcement
+- **Result engine** — real-time tallying with winner announcement
+- **Clean architecture** — modular functions, no spaghetti; easy to read and extend
+
+### 🛠️ Tech stack
+`C` · `Switch-case control flow` · `Modular functions` · `Input validation`
+
+---
+
+## 📖 Book Recommendation Website
+**`HTML5` · `CSS3` · `JavaScript`**
+
+> A responsive, genre-aware book discovery website — built to feel good on any screen, from desktop to mobile.
+
+### ✨ What it does
+
+- **Genre filtering** — browse and narrow recommendations by category
+- **Responsive layout** — Flexbox + Grid for fluid, mobile-first design
+- **Interactive UI** — smooth DOM interactions without any frameworks
+- **Clean aesthetics** — intentional typography and spacing for a pleasant reading experience
+
+### 🛠️ Tech stack
+`HTML5` · `CSS3 (Flexbox, Grid)` · `Vanilla JavaScript (DOM manipulation)`
+
+---
+
+## 📅 Academic Productivity App
+**`C++` · `Qt Framework` · `Desktop`**
+
+> A cross-platform desktop app that helps students stay on top of deadlines, tasks, and weekly schedules — built with Qt's event-driven UI model.
+
+### ✨ What it does
+
+- **Task & schedule manager** — create tasks, assign deadlines, track what's pending
+- **Calendar view** — daily and weekly planning at a glance
+- **Progress tracker** — visualize goal completion over time
+- **Responsive UI** — Qt Widgets with signal-slot architecture for clean event handling
+
+### 🛠️ Tech stack
+`C++` · `Qt Framework` · `Signal-slot mechanism` · `OOP design principles`
+
+---
+
+<div align="center">
+
+*Built with curiosity and a lot of compiler errors.*
+
+</div>
