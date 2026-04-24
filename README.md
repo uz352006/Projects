@@ -17,7 +17,6 @@ Frontend prototype of an adaptive learning platform designed for neurodivergent 
 - Learning-style based onboarding (VARK model)  
 - Adaptive dashboard with personalized content flow  
 - Neurodivergent-focused course structure (ADHD, dyslexia, autism)  
-- WCAG 2.1 AA accessibility-focused UI  
 - Analytics prototype for learning behavior insights  
 
 ---
