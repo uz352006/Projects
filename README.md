@@ -1,139 +1,105 @@
-# Project Portfolio — Umama
+# Hi, I'm Umama 👋  
 
-> Second-year Computer Science student at FAST-NUCES with a growing focus on **human-centered computing** — specifically how interface structure, interaction design, and system architecture affect the way people process information and learn.
-
-These projects reflect a trajectory: from low-level systems programming toward research in adaptive and accessible learning technologies. My current work sits at the intersection of **interaction design**, **cognitive accessibility**, and **immersive learning environments**.
-
----
-
-## NeuroLearn AI — Adaptive Learning Platform for Neurodivergent Students
-**`HTML` · `CSS` · `JavaScript` · `UX Research` · `Accessible Design`**
-
-> Live at **[neurolearnai.netlify.app](https://neurolearnai.netlify.app)**
-
-A deployed web-based learning platform designed to support neurodivergent learners through structured, low-friction interfaces and adaptive content delivery. Built around the principle that interface design functions as an accessibility intervention — not an afterthought.
-
-**The research question driving this project:**
-*Does modular, chunked content delivery with consistent spatial layout reduce task-switching errors and improve task completion rates for neurodivergent learners?*
-
-**What it does**
-- Learning preference onboarding — Visual, Auditory, Kinesthetic, Reading/Writing
-- Adaptive dashboard with personalized content sequencing and progress tracking
-- Course catalog designed around neurodivergent-specific learning patterns (ADHD, dyslexia, autism spectrum)
-- Analytics section with learning style breakdown and behavioral insights
-- Accessible UI designed to WCAG 2.1 AA standards — consistent layout, chunked content, reduced cognitive load
-
-**Design principles**
-- Spatial consistency — predictable layout across all sessions reduces orientation overhead
-- Content chunking — information delivered in discrete units rather than continuous streams
-- Low-distraction interface — intentional minimalism to reduce extraneous cognitive load
-- Personalization — content flow adapts to declared learning modality
-
-**Tech stack**
-`HTML5` · `CSS3` · `Vanilla JavaScript` · `Responsive Design` · `Accessibility-first UI`
-
-**Status:** Deployed and live. Backend adaptive logic in active development.
+🎓 Computer Science student at FAST-NUCES  
+🧠 Interested in Human-Centered Computing, Cognitive Accessibility & XR Learning  
+💡 Building systems that reduce cognitive load and improve how people learn  
 
 ---
 
-## Academic Productivity Toolkit
-**`C++` · `Qt Framework` · `Desktop` · `Event-Driven UI`**
+## 🚀 Featured Projects  
 
-A cross-platform desktop application that helps students manage deadlines, tasks, and weekly schedules — built around Qt's signal-slot architecture.
+### 🧩 NeuroLearn AI — Adaptive Learning Platform  
+**`HTML` · `CSS` · `JavaScript` · `UX Research`**
 
-**Why it matters beyond the code:**
-This project started from a specific observation — students under cognitive load need interfaces that reduce friction, not amplify it. Every design decision (task sequencing, visual hierarchy, state feedback) was made with that constraint in mind. That thinking now directly informs my research interest in how interface structure affects learning for neurodivergent users.
+🔗 https://neurolearnai.netlify.app  
 
-**What it does**
-- Task and deadline manager with pending/completed state tracking
-- Calendar view for daily and weekly planning
-- Progress tracker that visualizes goal completion over time
-- Qt Widgets UI with clean signal-slot event handling
+Frontend prototype of an adaptive learning platform designed for neurodivergent students. Focused on structured, low-friction interfaces where **design itself acts as an accessibility tool**.
 
-**Tech stack**
-`C++` · `Qt Framework` · `Signal-slot mechanism` · `OOP design principles`
-
----
-
-## Smart Banking Wallet System
-**`C++` · `OOP` · `Custom DSA` · `File I/O`**
-
-A fully-featured, console-based banking system engineered without STL containers — every data structure built from scratch to understand the underlying mechanics.
-
-**What it does**
-
-| Feature | Description |
-|---|---|
-| Secure login | Password + 4-digit PIN auth, lockout after 3 failed attempts, timed auto-unlock |
-| Transactions | Deposit, withdraw, transfer with real-time balance updates |
-| Undo system | Reverse any transaction within a 60-second window via custom stack |
-| Scheduled payments | Min-heap priority queue for future payments ordered by execution time |
-| Security hardening | Weak credential rejection, per-account audit logs, invalid login tracking |
-| Persistence | All state survives restarts via structured file I/O |
-
-**Data structures — hand-built**
-```
-TransactionLinkedList   →  full history per account, O(1) append
-TransactionStack        →  undo buffer with timestamp-gated rollback
-PaymentPriorityQueue    →  min-heap ordered by execution time
-Dynamic User Array      →  auto-resizing account storage
-```
-
-**Tech stack**
-`C++` · `OOP` · `Manual memory management` · `File I/O` · `Input validation`
+**Highlights**
+- Learning-style based onboarding (VARK model)  
+- Adaptive dashboard with personalized content flow  
+- Neurodivergent-focused course structure (ADHD, dyslexia, autism)  
+- WCAG 2.1 AA accessibility-focused UI  
+- Analytics prototype for learning behavior insights  
 
 ---
 
-## E-Voting System
-**`C` · `Procedural` · `Console`**
+### 🖥️ Academic Productivity Toolkit  
+**`C++` · `Qt Framework` · `Desktop App`**
 
-A secure voting simulator covering the full election lifecycle — registration, session management, and result announcement — across two distinct user roles.
+A cross-platform productivity app built using Qt’s signal-slot architecture.
 
-**What it does**
-- Admin role: password-protected login, session control, live result monitoring
-- Voter role: registration with auto-generated ID, single-vote enforcement
-- Result engine with real-time tallying and winner announcement
-- Modular architecture — clean separation of concerns, easy to audit and extend
-
-**Tech stack**
-`C` · `Modular functions` · `Switch-case control flow` · `Input validation`
+**Highlights**
+- Task & deadline manager with status tracking  
+- Calendar-based weekly planning  
+- Progress visualization system  
+- Event-driven UI with clean architecture  
 
 ---
 
-## Book Recommendation Website
-**`HTML5` · `CSS3` · `JavaScript`**
+### 💳 Smart Banking Wallet System  
+**`C++` · `OOP` · `Custom Data Structures`**
 
-A responsive, genre-aware book discovery site built without any frameworks — pure HTML, CSS, and vanilla JavaScript.
+Console-based banking system built *without STL* to deeply understand core data structures.
 
-**What it does**
-- Genre filtering with dynamic DOM updates
-- Mobile-first responsive layout using Flexbox and Grid
-- Smooth interactions in vanilla JavaScript
-- Intentional typography and spacing for readability
-
-**Tech stack**
-`HTML5` · `CSS3 (Flexbox, Grid)` · `Vanilla JavaScript`
+**Highlights**
+- Secure login (PIN + password, lockout system)  
+- Transactions (deposit, withdraw, transfer)  
+- Undo feature using custom stack  
+- Scheduled payments via min-heap priority queue  
+- Persistent storage using file I/O  
 
 ---
 
-## Technical Profile
+### 🗳️ E-Voting System  
+**`C` · `Procedural Programming`**
 
-| Area | Tools & Languages |
-|---|---|
-| Systems programming | C, C++ — manual memory management, custom data structures |
-| Desktop applications | Qt Framework, OOP architecture, event-driven design |
-| Web & UI | HTML5, CSS3, Vanilla JavaScript, responsive design |
-| Research interests | Human-computer interaction, cognitive accessibility, adaptive learning systems, XR/immersive environments |
-| Concepts | Cognitive load reduction, interface-as-accessibility-intervention, neurodivergent UX, spatial computing |
+A voting simulator implementing complete election flow with role-based access.
 
----
-
-## Research Direction
-
-My current academic interest lies at the intersection of **interactive systems**, **XR technologies**, and **cognitive learning environments**. I am less focused on building complete applications and more focused on understanding the principles that govern how users interact with information across different digital contexts — and how those systems can be improved for clarity, accessibility, and adaptability.
-
-I am particularly interested in whether immersive and spatially-structured environments can reduce cognitive overload and improve learning outcomes for neurodivergent users — a question I am beginning to explore through both design and emerging research.
+**Highlights**
+- Admin & voter roles  
+- Secure voter registration with unique IDs  
+- One-person-one-vote enforcement  
+- Real-time result calculation  
 
 ---
 
-*Built with curiosity, a lot of compiler errors, and a genuine interest in how software shapes human experience.*
+### 📚 Book Recommendation Website  
+**`HTML` · `CSS` · `JavaScript`**
+
+Responsive book discovery platform built using pure frontend technologies.
+
+**Highlights**
+- Genre-based filtering  
+- Responsive design (Flexbox & Grid)  
+- Dynamic UI interactions with vanilla JS  
+- Clean, readability-focused layout  
+
+---
+
+## 🛠️ Technical Skills  
+
+**Languages:** C, C++, JavaScript  
+**Frontend:** HTML5, CSS3, Responsive Design  
+**Desktop:** Qt Framework (C++)  
+**Core Concepts:**  
+- Data Structures & Algorithms  
+- OOP & Event-Driven Design  
+- Manual Memory Management  
+- Input Validation & System Design  
+
+---
+
+## 🔬 Research Interests  
+
+- Human-Computer Interaction (HCI)  
+- Cognitive Accessibility  
+- Adaptive Learning Systems  
+- Neurodivergent UX Design  
+- XR / Immersive Learning Environments  
+
+I’m particularly interested in how **interface structure and spatial design influence learning behavior**, and whether immersive environments can reduce cognitive overload.
+
+...
+
+⭐ *Always learning, building, and exploring how technology shapes human experience.*
