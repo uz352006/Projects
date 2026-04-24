@@ -11,8 +11,6 @@
 ### 🧩 NeuroLearn AI — Adaptive Learning Platform  
 **`HTML` · `CSS` · `JavaScript` · `UX Research`**
 
-🔗 https://neurolearnai.netlify.app  
-
 Frontend prototype of an adaptive learning platform designed for neurodivergent students. Focused on structured, low-friction interfaces where **design itself acts as an accessibility tool**.
 
 **Highlights**
@@ -95,8 +93,7 @@ Responsive book discovery platform built using pure frontend technologies.
 - Human-Computer Interaction (HCI)  
 - Cognitive Accessibility  
 - Adaptive Learning Systems  
-- Neurodivergent UX Design  
-- XR / Immersive Learning Environments  
+
 
 I’m particularly interested in how **interface structure and spatial design influence learning behavior**, and whether immersive environments can reduce cognitive overload.
 
