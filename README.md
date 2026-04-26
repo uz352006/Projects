@@ -1,7 +1,7 @@
 # Hi, I'm Umama 👋  
 
 🎓 Computer Science student at FAST-NUCES  
-🧠 Interested in Human-Centered Computing, Cognitive Accessibility & XR Learning  
+🧠 Interested in Human-Centered Computing, Cognitive Accessibility
 💡 Building systems that reduce cognitive load and improve how people learn  
 
 ---
@@ -9,12 +9,12 @@
 ## 🚀 Featured Projects  
 
 ### 🧩 NeuroLearn AI — Adaptive Learning Platform  
-**`HTML` · `CSS` · `JavaScript` · `UX Research`**
+**`HTML` · `CSS` · `JavaScript` 
 
 Frontend prototype of an adaptive learning platform designed for neurodivergent students. Focused on structured, low-friction interfaces where **design itself acts as an accessibility tool**.
 
 **Highlights**
-- Learning-style based onboarding (VARK model)  
+- Learning-style based onboarding 
 - Adaptive dashboard with personalized content flow  
 - Neurodivergent-focused course structure (ADHD, dyslexia, autism)  
 - Analytics prototype for learning behavior insights  
