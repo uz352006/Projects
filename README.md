@@ -8,7 +8,7 @@
 
 ## 🚀 Featured Projects  
 
-### 🧩 NeuroLearn AI — NeuroLearn AI — Adaptive Interface Prototype for Neurodivergent Learners
+### 🧩 NeuroLearn AI — Adaptive Interface Prototype for Neurodivergent Learners
 **`HTML` · `CSS` · `JavaScript` 
 
 Frontend prototype of an adaptive learning platform designed for neurodivergent students. Focused on structured, low-friction interfaces where **design itself acts as an accessibility tool**.
